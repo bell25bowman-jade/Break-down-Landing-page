@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  font-size: large;
+  height: 100px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin: 0;
+  padding: 50px;
+  font-size: x-large;
+}
+
+.navbar a {
+  color: white;
+  margin: 0px 15px;
+  text-decoration: none;
+  width: auto;
+  height: auto;
+}
+.navbar,
+ul,
+li,
+a:hover {
+  color: lightpink;
+}
+
+.me {
+  width: 450px;
+  height: 520px;
+  padding-top: 20px;
+}
+
+.hero {
+  background-color: #b760f1;
+  border-radius: 5cap;
+  margin: 50px;
+  height: 750px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+h1 {
+  font-size: xx-large;
+  padding: 20px;
+  height: 50px;
+}
+h2 {
+  font-size: x-large;
+  padding-bottom: 10px;
+}
+p {
+  height: 150px;
+  width: 200px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+  font-weight: bold;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer {
+  display: inline;
+  margin-top: auto;
+  background-color: #222;
+  color: white;
+  padding: 15px;
+  height: 75px;
+}
+h5 {
+  font-size: medium;
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  width: 100px;
+  height: 120px;
+}
+
+.card {
+  display: flexbox;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+.software {
+  width: 400px;
+  height: 300px;
+  justify-self: left;
+  flex-wrap: wrap;
+}
+.cleaning {
+  width: 400px;
+  height: 300px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+h3 {
+  display: block;
+  font-size: larger;
+  width: 100px;
+  height: 40px;
+}
+
+.braxten {
+  width: 400px;
+  height: 350px;
+  justify-content: left;
+  flex-wrap: wrap;
+}
